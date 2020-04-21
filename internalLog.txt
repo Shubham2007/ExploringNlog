@@ -1,0 +1,207 @@
+2020-04-21 20:21:23.1262 Info Message Template Auto Format enabled
+2020-04-21 20:21:23.4373 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:21:24.5591 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:21:24.6630 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:21:24.9452 Info Found 47 configuration items
+2020-04-21 20:25:23.9451 Info Message Template Auto Format enabled
+2020-04-21 20:25:24.1572 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:25:25.0427 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:25:25.0592 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:25:25.1428 Info Found 47 configuration items
+2020-04-21 20:28:22.9355 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:28:23.9519 Info Reloading configuration...
+2020-04-21 20:28:23.9519 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:28:23.9519 Info Message Template Auto Format enabled
+2020-04-21 20:28:23.9519 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:28:23.9616 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:28:23.9616 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:28:23.9616 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:28:24.4019 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:28:24.4019 Warn NLog Config Reload() failed. Invalid XML?
+2020-04-21 20:28:31.3851 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:28:32.3909 Info Reloading configuration...
+2020-04-21 20:28:32.4012 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:28:32.4012 Info Message Template Auto Format enabled
+2020-04-21 20:28:32.4012 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:28:32.4012 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:28:32.4012 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:28:32.4012 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:28:32.4012 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:28:32.4143 Warn NLog Config Reload() failed. Invalid XML?
+2020-04-21 20:28:37.2086 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:28:38.2129 Info Reloading configuration...
+2020-04-21 20:28:38.2129 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:28:38.2129 Info Message Template Auto Format enabled
+2020-04-21 20:28:38.2129 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:28:38.2129 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:28:38.2129 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:28:38.2129 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:28:38.2129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:28:38.2259 Warn NLog Config Reload() failed. Invalid XML?
+2020-04-21 20:29:04.6663 Info Message Template Auto Format enabled
+2020-04-21 20:29:04.6921 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:29:04.9863 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:29:05.0586 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:29:05.1253 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:29:05.5161 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:29:05.6960 Info Found 44 configuration items
+2020-04-21 20:29:05.7227 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoFile
+2020-04-21 20:29:39.6636 Info Message Template Auto Format enabled
+2020-04-21 20:29:39.6980 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:29:40.0912 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:29:40.3167 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:29:40.3409 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:29:40.4209 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:29:40.4886 Info Found 46 configuration items
+2020-04-21 20:29:40.5377 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoFile
+2020-04-21 20:29:58.9710 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:29:59.9795 Info Reloading configuration...
+2020-04-21 20:29:59.9795 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:29:59.9795 Info Message Template Auto Format enabled
+2020-04-21 20:29:59.9795 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:29:59.9928 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:29:59.9928 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:29:59.9928 Error Exception when parsing nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-04-21 20:29:59.9928 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-04-21 20:29:59.9928 Warn NLog Config Reload() failed. Invalid XML?
+2020-04-21 20:30:06.5076 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:30:07.5137 Info Reloading configuration...
+2020-04-21 20:30:07.5137 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:30:07.5137 Info Message Template Auto Format enabled
+2020-04-21 20:30:07.5137 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:30:07.5137 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:30:07.5229 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:30:07.5229 Info Closing old configuration.
+2020-04-21 20:30:07.5912 Info Found 45 configuration items
+2020-04-21 20:30:14.0462 Info Message Template Auto Format enabled
+2020-04-21 20:30:14.0794 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:30:14.2347 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:30:14.2497 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:30:14.3352 Info Found 45 configuration items
+2020-04-21 20:35:01.2612 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:35:02.2657 Info Reloading configuration...
+2020-04-21 20:35:02.2763 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:35:02.2763 Info Message Template Auto Format enabled
+2020-04-21 20:35:02.2763 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:35:02.2763 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:35:02.2763 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:35:02.2891 Info Closing old configuration.
+2020-04-21 20:35:02.3620 Info Found 45 configuration items
+2020-04-21 20:35:21.3077 Info Message Template Auto Format enabled
+2020-04-21 20:35:21.3299 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:35:21.7309 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:35:21.7623 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:35:21.8821 Info Found 45 configuration items
+2020-04-21 20:36:12.0964 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:36:13.1050 Info Reloading configuration...
+2020-04-21 20:36:13.1050 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:36:13.1050 Info Message Template Auto Format enabled
+2020-04-21 20:36:13.1050 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:36:13.1050 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:36:13.1050 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:36:13.1214 Info Closing old configuration.
+2020-04-21 20:36:13.1778 Info Found 45 configuration items
+2020-04-21 20:37:09.9662 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-21 20:37:10.9765 Info Reloading configuration...
+2020-04-21 20:37:10.9765 Info Configuring from an XML element in nlog.config...
+2020-04-21 20:37:10.9765 Info Message Template Auto Format enabled
+2020-04-21 20:37:10.9765 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:37:10.9765 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:37:10.9765 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:37:10.9765 Info Closing old configuration.
+2020-04-21 20:37:11.0106 Info Found 45 configuration items
+2020-04-21 20:37:51.1332 Info Message Template Auto Format enabled
+2020-04-21 20:37:51.2392 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-21 20:37:51.4265 Info Adding target FileTarget(Name=ErrorFile)
+2020-04-21 20:37:51.5477 Info Adding target FileTarget(Name=InfoFile)
+2020-04-21 20:37:51.6330 Info Found 45 configuration items
